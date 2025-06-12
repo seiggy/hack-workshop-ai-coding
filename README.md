@@ -1,21 +1,19 @@
-# Scenario : The Pet Shelter
+# Scenario : Advanced AI Pair Programming Challenge
 
-According to the American Society for the Prevention of Cruelty to Animals (ASPCA), animal shelters receive about 3 million dogs annually - about 6 dogs per minute! While euthanasia rates have dropped, over 500,000 dogs are euthanized because they could not be matched with their original owners or an adoptive family.
+Developers today agree that AI code assistant tools are useful for easy, repeatable tasks. JSON to Class, quick templated code, writing simple scripts. But most still think it's bad at more complex tasks. This exercise is here to show you that assumption is no longer as true as you might think!
 
-Your team will assist a fictional pet adoption agency in creating a website. To start they would like to provide a tool where a user could create a list of all the tasks they need to perform when they adopt a pet, like schedule their first vet appointment or apply for a dog license. Your team will do so by using [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview?WT.mc_id=academic-28005-chrhar) for hosting and an already created template.
 
 ## Prerequisites
 
-### Azure account
-
-Each team member will need an Azure account. With [Azure for Students](https://aka.ms/a4s?WT.mc_id=academic-28005-chrhar), you can access $100 in free credit, and a large suite of free services!
+- Clone the eShop repository: https://github.com/dotnet/eshop
+- Clone the AI Assisted Coding Framework repository: https://github.com/ChrisMcKee1/AI-Assisted-Coding
+- [Install & start Docker Desktop](https://docs.docker.com/engine/install/)
 
 ### Skills
 
-- HTML, CSS and JavaScript
+- C# and .NET Tooling
 - Git and GitHub
   - [Forking](https://docs.github.com/github/getting-started-with-github/quickstart/fork-a-repo) and [cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) repositories
-  - [Creating and managing branches](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches)
 
 ### Software
 
@@ -24,45 +22,41 @@ Each team member will need an Azure account. With [Azure for Students](https://a
   - [Install git on Windows](https://git-scm.com/download/win)
   - [Install git on Linux](https://git-scm.com/download/linux)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Node.js](https://nodejs.org/)
-  - [Install Node.js on Windows](https://docs.microsoft.com/windows/dev-environment/javascript/nodejs-on-windows?WT.mc_id=academic-28005-chrhar)
-  - [Install Node.js on Linux or MacOS](https://github.com/nvm-sh/nvm#installing-and-updating)
-- [Azure Functions Core Tools](https://www.npmjs.com/package/azure-functions-core-tools), which can be installed by running the following command (after Node.js and npm are installed)
+- [.NET 9 SDK](https://dot.net/download?cid=eshop)
 
-  ```bash
-  npm i -g azure-functions-core-tools@3 --unsafe-perm true
-  ```
+Or
+
+- Run the following commands in a Powershell & Terminal running as `Administrator` to automatically configuration your environment with the required tools to build and run this application. (Note: A restart is required after running the script below.)
+
+##### Install Visual Studio Code and related extensions
+```powershell
+install-Module -Name Microsoft.WinGet.Configuration -AllowPrerelease -AcceptLicense  -Force
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+get-WinGetConfiguration -file .\.configurations\vscode.dsc.yaml | Invoke-WinGetConfiguration -AcceptConfigurationAgreements
+```
 
 ## Resources
 
-A series of resources will be provided to help your team determine the appropriate steps for completion. The resources provided should provide your team with enough information to achieve each goal. If you get stuck, you can always ask a mentor for additional help.
-
-A [sample of the site](https://kind-beach-04aea671e.azurestaticapps.net/) has been deployed so you can see how it looks in action.
+In the [Example Requirements](./example-requirements/) folder, you'll find a series of Markdown files. These are just a few example requirements that we dreamed up to add new features to eShop. Choose one and see how well the AI framework implements the change!
 
 ## Goals
 
-Your team will obtain the starter, deploy the application to the cloud, download and run the source code locally, and make modifications to the site.
+You'll understand better how to utilize advanced AI tools to increase your productivity and workflow.
 
-1. [Obtain and deploy the template to the cloud](./goals/1-deploy.md):
-   Because the pet shelter wants the application to be publicly available, your team will need to deploy the application. For this workshop, your team will use Azure Static Web Apps, which is able to host the application and run the Azure Functions.
-1. [Download and run the application locally](./goals/2-local.md):
-   After creating the project on GitHub and deploying it to Azure Static Web Apps, each member of your team will download the project and run it locally for development purposes.
-1. [Modify the site and push updates](./goals/3-modify.md):
-   The template uses a relatively generic example of a task management system. You want to update the landing page to display a proper welcome message and update the verbiage to include the suggested usage - tracking what the pet adopter needs to do post adoption.
+1. [Setup the AI Coding Workflow](./goals/1-setup.md):
+   The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
+1. [Understanding Requirements](./goals/2-requirements.md):
+   We've created several sample requirements docs. Run one and see the results.
+1. [Tips and Tricks](./goals/3-tips.md):
+   Pitfalls to avoid, custom instructions, and prompt files
 
 ## Validation
 
-This workshop is designed to be a goal-oriented self-exploration of Azure and related technologies. Your team can use the [validation tool](https://ashy-mushroom-0609d7c10.azurestaticapps.net/) to confirm the site has been deployed correctly and updates pushed.
+This workshop is designed to be a goal-oriented self-exploration of Advanced AI Coding using GitHub Copilot. Your results will vary, as AI development is non-deterministic.
 
 ## Where do we go from here?
 
-This project is designed as a potential seed for future development. From a technical perspective, you can begin to incorporate whatever frameworks or technologies you wish to use. This could include [React](https://docs.microsoft.com/learn/paths/react?WT.mc_id=academic-28005-chrhar) or [Vue](https://docs.microsoft.com/learn/paths/vue-first-steps/?WT.mc_id=academic-28005-chrhar).
 
-If you were to continue with this idea, your team could potentially:
-
-- Use the [Petfinder API](https://www.petfinder.com/developers/) to create an application to match potential adopters with dogs
-- Use the [Bing Maps API](https://docs.microsoft.com/bingmaps/getting-started/?WT.mc_id=academic-28005-chrhar) to search based on location
-- Use [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-28005-chrhar) to identify dog breeds
 
 ## Additional notes and disclaimers
 

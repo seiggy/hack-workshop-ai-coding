@@ -1,13 +1,13 @@
 # Project information
 site_name: Microsoft Web Workshop
-site_url: https://microsoft.github.io/hack-workshop-web/
+site_url: https://microsoft.github.io/hack-workshop-ai-coding/
 site_author: Microsoft
 site_description: >-
   Learn to build a web app for a pet shelter using Azure Static Web Apps and Cosmos DB!
 
 # Repository
-repo_name: microsoft/hack-workshop-web
-repo_url: https://github.com/microsoft/hack-workshop-web
+repo_name: microsoft/hack-workshop-ai-coding
+repo_url: https://github.com/microsoft/hack-workshop-ai-coding
 
 copyright: Copyright &copy; Microsoft
 
@@ -83,6 +83,7 @@ plugins:
 nav:
     - Overview: 'index.md'
     - 'Goals':
-      - '1-deploy.md'
-      - '2-local.md'
-      - '3-modify.md'
+      - '1-setup.md'
+      - '2-init.md'
+      - '3-requirements.md'
+      - '4-tips.md'
