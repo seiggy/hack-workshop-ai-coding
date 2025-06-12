@@ -5,15 +5,40 @@ Developers today agree that AI code assistant tools are useful for easy, repeata
 
 ## Prerequisites
 
-- Clone the eShop repository: https://github.com/dotnet/eshop
 - Clone the AI Assisted Coding Framework repository: https://github.com/ChrisMcKee1/AI-Assisted-Coding
 - [Install & start Docker Desktop](https://docs.docker.com/engine/install/)
 
+
+<details>
+<summary> For .NET Developers</summary>
+- Clone the eShop repository: https://github.com/dotnet/eshop
+</details>
+
+<details>
+<summary> For Java Developers</summary>
+- Clone the Pet Clinic repository: https://github.com/azure-samples/spring-petclinic-microservices
+</details>
+
+<details>
+<summary> For Python Developers</summary>
+- Clone the InvenTree repository: https://github.com/inventree/InvenTree
+</details>
+
+<details>
+<summary> For Typescript Developers</summary>
+- Clone the https://github.com/mrWh1te/ngLibrary repository: 
+</details>
+
 ### Skills
 
-- C# and .NET Tooling
 - Git and GitHub
-  - [Forking](https://docs.github.com/github/getting-started-with-github/quickstart/fork-a-repo) and [cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) repositories
+  - [Cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) repositories
+
+- One of the following Languages:
+   - C#
+   - Java (Spring-boot)
+   - Python
+   - Typescript
 
 ### Software
 
@@ -21,34 +46,80 @@ Developers today agree that AI code assistant tools are useful for easy, repeata
   - [Install git on macOS](https://git-scm.com/download/mac)
   - [Install git on Windows](https://git-scm.com/download/win)
   - [Install git on Linux](https://git-scm.com/download/linux)
+
+
+<details>
+<summary> For .NET Developers</summary>
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [.NET 9 SDK](https://dot.net/download?cid=eshop)
+</details>
 
-Or
+<details>
+<summary> For Java Developers</summary>
+Supported IDE's:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Jetbrains IntelliJ](https://www.jetbrains.com/idea/)
+</details>
 
-- Run the following commands in a Powershell & Terminal running as `Administrator` to automatically configuration your environment with the required tools to build and run this application. (Note: A restart is required after running the script below.)
+<details>
+<summary> For Python Developers</summary>
+Supported IDE's:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Jetbrains IntelliJ](https://www.jetbrains.com/pycharm/)
+</details>
 
-##### Install Visual Studio Code and related extensions
-```powershell
-install-Module -Name Microsoft.WinGet.Configuration -AllowPrerelease -AcceptLicense  -Force
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
-get-WinGetConfiguration -file .\.configurations\vscode.dsc.yaml | Invoke-WinGetConfiguration -AcceptConfigurationAgreements
-```
+<details>
+<summary> For Typescript Developers</summary>
+- [Visual Studio Code](https://code.visualstudio.com/)
+</details>
+
 
 ## Resources
 
-In the [Example Requirements](./example-requirements/) folder, you'll find a series of Markdown files. These are just a few example requirements that we dreamed up to add new features to eShop. Choose one and see how well the AI framework implements the change!
+In the [Exercise Files](./exercise-files/) folder, you'll find a series of Markdown files. These are just a few example requirements that we dreamed up to add new features to eShop. Choose one and see how well the AI framework implements the change!
 
 ## Goals
 
 You'll understand better how to utilize advanced AI tools to increase your productivity and workflow.
-
-1. [Setup the AI Coding Workflow](./goals/1-setup.md):
+<details>
+<summary> For .NET Developers</summary>
+1. [Setup the AI Coding Workflow](./goals/dotnet/1-setup.md):
    The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
-1. [Understanding Requirements](./goals/2-requirements.md):
+1. [Understanding Requirements](./goals/dotnet/2-requirements.md):
    We've created several sample requirements docs. Run one and see the results.
-1. [Tips and Tricks](./goals/3-tips.md):
+1. [Tips and Tricks](./goals/dotnet/3-tips.md):
    Pitfalls to avoid, custom instructions, and prompt files
+</details>
+
+<details>
+<summary> For Java Developers</summary>
+1. [Setup the AI Coding Workflow](./goals/java/1-setup.md):
+   The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
+1. [Understanding Requirements](./goals/java/2-requirements.md):
+   We've created several sample requirements docs. Run one and see the results.
+1. [Tips and Tricks](./goals/java/3-tips.md):
+   Pitfalls to avoid, custom instructions, and prompt files
+</details>
+
+<details>
+<summary> For Python Developers</summary>
+1. [Setup the AI Coding Workflow](./goals/python/1-setup.md):
+   The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
+1. [Understanding Requirements](./goals/python/2-requirements.md):
+   We've created several sample requirements docs. Run one and see the results.
+1. [Tips and Tricks](./goals/python/3-tips.md):
+   Pitfalls to avoid, custom instructions, and prompt files
+</details>
+
+<details>
+<summary> For Typescript Developers</summary>
+1. [Setup the AI Coding Workflow](./goals/typescript/1-setup.md):
+   The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
+1. [Understanding Requirements](./goals/typescript/2-requirements.md):
+   We've created several sample requirements docs. Run one and see the results.
+1. [Tips and Tricks](./goals/typescript/3-tips.md):
+   Pitfalls to avoid, custom instructions, and prompt files
+</details>
 
 ## Validation
 

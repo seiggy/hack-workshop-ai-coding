@@ -1,8 +1,8 @@
-# eShop Feature Development Challenge
+# ngLibrary Feature Development Challenge
 
 ## 🎯 Challenge Overview
 
-Your mission is to **design and document a new feature** for the eShop reference application. This challenge will teach you how to write comprehensive feature requirements that integrate seamlessly with the ConPort workflow and architectural patterns we've created.
+Your mission is to **design and document a new feature** for the ngLibrary reference application. This challenge will teach you how to write comprehensive feature requirements that integrate seamlessly with the ConPort workflow and architectural patterns we've created.
 
 ## 📋 What You'll Learn
 
@@ -14,18 +14,18 @@ Your mission is to **design and document a new feature** for the eShop reference
 
 ## 🏗️ Architecture Context
 
-Before you begin, familiarize yourself with the existing eShop architecture by reviewing:
+Before you begin, familiarize yourself with the existing ngLibrary architecture by reviewing:
 
 - **Architecture Diagrams**: `architectureDiagrams/*.md` - Architecture documentation created by GitHub Copilot
-- **Current Services**: Identity, Catalog, Basket, Ordering, Webhooks, Mobile.BFF
-- **Technology Stack**: .NET 9, Aspire, PostgreSQL, Redis, RabbitMQ, Blazor
+- **Current Modules**: App, Books, Cart, Checkout, Layouts, Core
+- **Technology Stack**: Typescript 4, Angular 11
 
 ## 🎲 Feature Ideas (Choose One or Create Your Own)
 
 ### 💡 **Beginner Level**
-- **Product Reviews & Ratings**: Allow customers to review and rate products
-- **Wishlist Management**: Save products for later purchase
-- **Product Recommendations**: "Customers who bought this also bought..."
+- **Book Reviews & Ratings**: Allow customers to review and rate books
+- **Wishlist Management**: Save books for later checkout
+- **Book Recommendations**: "Customers who read this book this also read..."
 
 ### 🔥 **Intermediate Level**
 - **Inventory Management**: Real-time stock tracking with low-stock alerts
@@ -33,11 +33,10 @@ Before you begin, familiarize yourself with the existing eShop architecture by r
 - **Loyalty Program**: Points-based rewards system with tier benefits
 
 ### 🚀 **Advanced Level**
-- **Real-time Notifications**: WebSocket-based order status updates
-- **Dynamic Pricing Engine**: AI-powered pricing based on demand, inventory, and market conditions
+- **Real-time Notifications**: WebSocket-based book availability updates
 
 ### 🎨 **Your Own Idea**
-Create something unique that fits the e-commerce domain and showcases modern software engineering practices.
+Create something unique that fits the library management domain and showcases modern software engineering practices.
 
 ## 📝 Requirements Template
 
@@ -243,7 +242,7 @@ Your feature requirements document should demonstrate:
 
 ## 🎉 Ready to Begin?
 
-Remember: **Good requirements are the foundation of great software**. Take your time to think through the problem space before jumping into solutions. The eShop application is a reference for modern software engineering practices—your feature should exemplify the same level of thoughtfulness and technical excellence.
+Remember: **Good requirements are the foundation of great software**. Take your time to think through the problem space before jumping into solutions. The ngLibrary application is a reference for modern software engineering practices—your feature should exemplify the same level of thoughtfulness and technical excellence.
 
 **Start by creating your feature file and begin documenting your thinking process. Use Chat mode to help you if you're stuck!**
 
@@ -271,3 +270,6 @@ flowchart LR
 ---
 
 *This challenge is designed to simulate real-world feature development while teaching best practices for requirements documentation and architectural thinking. Focus on quality over speed—the goal is learning, not just completion.*
+
+## Tips & Tricks
+Check out the [Tips & Tricks](../3-tips.md) for a collection of common challenges and solutions we've faced and solved ourselves using this framework!
