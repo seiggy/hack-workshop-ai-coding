@@ -81,45 +81,21 @@ In the [Exercise Files](./exercise-files/) folder, you'll find a series of Markd
 ## Goals
 
 You'll understand better how to utilize advanced AI tools to increase your productivity and workflow.
-<details>
-<summary> For .NET Developers</summary>
-1. [Setup the AI Coding Workflow](./goals/dotnet/1-setup.md):
-   The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
-1. [Understanding Requirements](./goals/dotnet/2-requirements.md):
-   We've created several sample requirements docs. Run one and see the results.
-1. [Tips and Tricks](./goals/dotnet/3-tips.md):
-   Pitfalls to avoid, custom instructions, and prompt files
-</details>
 
-<details>
-<summary> For Java Developers</summary>
-1. [Setup the AI Coding Workflow](./goals/java/1-setup.md):
+1. **Setup the AI Coding Workflow**  
    The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
-1. [Understanding Requirements](./goals/java/2-requirements.md):
+1. **Understanding Requirements**  
    We've created several sample requirements docs. Run one and see the results.
-1. [Tips and Tricks](./goals/java/3-tips.md):
+1. **Tips and Tricks**  
    Pitfalls to avoid, custom instructions, and prompt files
-</details>
 
-<details>
-<summary> For Python Developers</summary>
-1. [Setup the AI Coding Workflow](./goals/python/1-setup.md):
-   The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
-1. [Understanding Requirements](./goals/python/2-requirements.md):
-   We've created several sample requirements docs. Run one and see the results.
-1. [Tips and Tricks](./goals/python/3-tips.md):
-   Pitfalls to avoid, custom instructions, and prompt files
-</details>
+### Get Started!
 
-<details>
-<summary> For Typescript Developers</summary>
-1. [Setup the AI Coding Workflow](./goals/typescript/1-setup.md):
-   The key to this workshop is our advanced workflow. This will show you how to reuse our work across your projects.
-1. [Understanding Requirements](./goals/typescript/2-requirements.md):
-   We've created several sample requirements docs. Run one and see the results.
-1. [Tips and Tricks](./goals/typescript/3-tips.md):
-   Pitfalls to avoid, custom instructions, and prompt files
-</details>
+Select your learning path below to get started!
+- [.NET](./goals/dotnet/1-setup.md)
+- [Java](./goals/java/1-setup.md)
+- [Python](./goals/python/1-setup.md)
+- [Typescript](./goals/typescript/1-setup.md)
 
 ## Validation
 
@@ -127,7 +103,7 @@ This workshop is designed to be a goal-oriented self-exploration of Advanced AI 
 
 ## Where do we go from here?
 
-
+![](./theme/assets/images/demo-time.jpg)
 
 ## Additional notes and disclaimers
 
