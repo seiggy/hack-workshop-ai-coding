@@ -69,7 +69,7 @@ After verifying Copilot integration, initialize the ConPort MCP memory system:
 
 ### Step 7: Have the AI conduct Architecture Review
 
-Have Copilot Create an Architecture Review of the repo. Take a look at the `README.md` in the AI Assisted Coding framework for help on how to conduct the Architecture review. When it completes, you should end up with a new folder named `architectureDiagrams` that contains 5 ore more markdown files with charts, documentation, and more about the eShop Application!
+Have Copilot Create an Architecture Review of the repo. Take a look at the `README.md` in the AI Assisted Coding framework for help on how to conduct the Architecture review. When it completes, you should end up with a new folder named `architectureDiagrams` that contains 5 ore more markdown files with charts, documentation, and more about the eShop Application! Make sure you pass the #codebase token in your command, so that VS Code will give the AI access to the codebase for the context!
 
 ## Next challenge
 
