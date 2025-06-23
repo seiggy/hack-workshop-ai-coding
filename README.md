@@ -6,7 +6,12 @@ Developers today agree that AI code assistant tools are useful for easy, repeata
 ## Prerequisites
 
 - Clone the AI Assisted Coding Framework repository: https://github.com/ChrisMcKee1/AI-Assisted-Coding
-- [Install & start Docker Desktop](https://docs.docker.com/engine/install/)
+- [Install & start Docker Desktop](https://docs.docker.com/get-started/get-docker/) 
+
+or
+
+- [Install & Start Podman](https://podman.io/docs/installation)
+
 
 
 <details>
