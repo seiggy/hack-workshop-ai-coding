@@ -11,21 +11,25 @@ Developers today agree that AI code assistant tools are useful for easy, repeata
 
 <details>
 <summary> For .NET Developers</summary>
+
 - Clone the eShop repository: https://github.com/dotnet/eshop
 </details>
 
 <details>
 <summary> For Java Developers</summary>
+
 - Clone the Pet Clinic repository: https://github.com/azure-samples/spring-petclinic-microservices
 </details>
 
 <details>
 <summary> For Python Developers</summary>
+
 - Clone the InvenTree repository: https://github.com/inventree/InvenTree
 </details>
 
 <details>
 <summary> For Typescript Developers</summary>
+
 - Clone the https://github.com/mrWh1te/ngLibrary repository: 
 </details>
 
@@ -50,12 +54,14 @@ Developers today agree that AI code assistant tools are useful for easy, repeata
 
 <details>
 <summary> For .NET Developers</summary>
+
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [.NET 9 SDK](https://dot.net/download?cid=eshop)
 </details>
 
 <details>
 <summary> For Java Developers</summary>
+
 Supported IDE's:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Jetbrains IntelliJ](https://www.jetbrains.com/idea/)
@@ -63,13 +69,15 @@ Supported IDE's:
 
 <details>
 <summary> For Python Developers</summary>
+
 Supported IDE's:
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Jetbrains IntelliJ](https://www.jetbrains.com/pycharm/)
+- [Jetbrains Pycharm](https://www.jetbrains.com/pycharm/)
 </details>
 
 <details>
 <summary> For Typescript Developers</summary>
+
 - [Visual Studio Code](https://code.visualstudio.com/)
 </details>
 

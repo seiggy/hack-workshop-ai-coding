@@ -28,9 +28,17 @@ cd AI-Assisted-Coding
 Copy-Item -Path ".\*" -Destination "C:\path\to\your-project\" -Recurse -Force
 ```
 
-### Step 2 (optional): Change the Context7 MCP Configuration
+### Step 2 (optional): Change the MCP Configuration
 
 By default, we utilize the local Contex7 MCP server for caching and speed. However, if you don't have NodeJS installed, and do not wish to use NodeJS, you can instead utilize iether the public Context7 MCP server, or build and run the Docker version of the Context7 MCP tool. The `.vscode/mcp.json` file has commented out configuration options for these two paths.
+
+See the [Context7 Docker Readme](../../context7-docker.md) for instructions on how to use Docker to host Context7 locally.
+
+Also, we are using Docker for hosting the Context Portal MCP server. We recommend you pull the image locally before you start up VS Code. To pull the image:
+
+`docker pull seiggy/context-portal-mcp:0.2.18`
+
+If you are using Podman, replace `docker` with `podman` in both the command, and in the `mcp.json` file. If you do not have Docker installed, you can run the Context Portal MCP server locally using Python and UV. For further details on how to use the ConPort MCP server with Python, see the [Context Portal Python Readme](../../conportal-python.md).
 
 ### Step 3: Open Project in VS Code
 
