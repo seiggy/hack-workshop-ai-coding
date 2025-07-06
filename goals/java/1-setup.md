@@ -25,7 +25,7 @@ cd AI-Assisted-Coding
 
 # Copy all framework files to your project's root directory
 # Replace 'your-project-path' with the actual path to your project
-Copy-Item -Path ".\*" -Destination "C:\path\to\your-project\" -Recurse -Force
+robocopy "." "C:\path\to\your-project\" /E /XD ".git"
 ```
 
 ### Step 2 (optional): Change the MCP Configuration
